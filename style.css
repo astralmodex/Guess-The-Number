@@ -8,6 +8,10 @@ body {
         margin: 0;
         padding: 0;
         background-color: rgb(53, 53, 53);
+        background-image: url(back.png);
+        background-attachment: fixed;
+        background-clip: content-box;
+        background-size: cover;
 }
 
 .container, .result-notification {
@@ -25,7 +29,7 @@ body {
         width: 400px;
         max-width: 50%;
         color: #ffffff;
-        background-color: #202020;
+        background-color: #004;
         padding: 5% ;
 }
 
@@ -34,8 +38,8 @@ h1 {
         font-weight: 1000;
         margin: 5% 0 ;
         font-family: 'Nova Square', cursive;
-        color: #f00;
-        -webkit-text-stroke: 0.5px#000;
+        color: #00c;
+        -webkit-text-stroke: 0.5px#4fb4ff;
 }
 
 .h1-belowtitle, .h1-belowtitlemain {
@@ -45,7 +49,7 @@ h1 {
         font-size: 100%;
         margin: 2% 2% ;
         padding: 5%;
-        color: #fff;
+        color: #4fb4ff;
 }
 
 .genNumBtn, .tryagain-btn {
@@ -54,8 +58,8 @@ h1 {
         width: 150px;
         padding: 2% 0;
         width: 150px;
-        background-color: #200;
-        color: #f00 ;
+        background-color: #00c;
+        color: #4fb4ff ;
         text-decoration: none ; 
         cursor: pointer;        
 }
@@ -76,7 +80,7 @@ h1 {
         color: #fff;
         text-align: center;
         height: 100px;
-        background-color: #200;
+        background-color: #00c;
 }
 .userInput {
         display: none;
